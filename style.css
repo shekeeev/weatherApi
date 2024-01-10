@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#map {
+    width: 400px;
+    height: 400px;
+}
+
+body {
+    background: url(./images/oblaka_nebo_more_140957_1920x1080.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 925px;
+}
+
+
+
+
+form {
+    display: flex;
+    /* margin-top: 100px; */
+    margin-left: 100px;
+}
+
+body button {
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+#inp {
+    height: 40px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: rgb(199, 79, 99);
+    font-size: 25px;
+}
+
+.giphy {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
